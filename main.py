@@ -1,6 +1,10 @@
 from Clase_Conjunto import Conjunto
-
+#def test():
+#    A = Conjunto([1,2,3,4])
+#    B = Conjunto([3,6,9])
+#    print('La resta es: {}' .format(A - B))
 if __name__ == "__main__":
+    #test()
     A = Conjunto([1,2,3,4])
     B = Conjunto([3,6,9])
     print('Conjunto A: {}' .format(A))
