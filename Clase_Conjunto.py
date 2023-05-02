@@ -24,6 +24,14 @@ class Conjunto:
                 result.append(self.__lista[i])
                 i+=1
         return Conjunto(result)
+    #def __sub__(self,otro):
+    #    result = []
+    #    i = 0
+    #    while i < len(self.__lista):
+    #        if self.__lista[i] not in otro.__lista:
+    #            result.append(self.__lista[i])
+    #            i+=1
+    #    print(result)
     
     def __eq__(self,otro):
         if len(self.__lista) == len(otro.__lista):
